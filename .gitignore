@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+*.json
+!exemples/*.json
+# FEC clients réels - convention : ne pas les déposer dans ce dépôt
+clients/
+confidentiel/
