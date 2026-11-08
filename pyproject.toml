@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fec-audit-fr"
+version = "0.1.0"
+description = "Contrôles préliminaires en lecture seule des FEC français"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "FEC Audit FR contributors"}]
+keywords = ["fec", "comptabilite", "audit", "france", "dgfip"]
+
+[project.scripts]
+fec-audit = "fec_audit_fr.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
