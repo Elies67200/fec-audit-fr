@@ -1,0 +1,4 @@
+JournalCode	JournalLib	EcritureNum	EcritureDate	CompteNum	CompteLib	CompAuxNum	CompAuxLib	PieceRef	PieceDate	EcritureLib	Debit	Credit	EcritureLet	DateLet	ValidDate	Montantdevise	Idevise
+OD	Opérations diverses	0001	20261031	606400	Fournitures administratives			FAC-FICT-001	20261031	Achat fictif	100,00	0,00			20261031		
+OD	Opérations diverses	0001	20261031	445660	TVA déductible			FAC-FICT-001	20261031	Achat fictif	20,00	0,00			20261031		
+OD	Opérations diverses	0001	20261031	401000	Fournisseurs			FAC-FICT-001	20261031	Achat fictif	0,00	120,00			20261031		
